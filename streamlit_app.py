@@ -9,6 +9,9 @@ from io import BytesIO
 import warnings
 warnings.filterwarnings('ignore')
 
+# Version 2.0 - Updated with improved UI and models
+# Last Updated: April 2026
+
 # Load the model
 @st.cache_resource
 def load_model():
@@ -647,8 +650,8 @@ st.markdown("""
         <div style="display: flex; align-items: center; gap: 1rem;">
             <div class="float-animation" style="font-size: 2.5rem;">❤️</div>
             <div>
-                <h1 style="color: #ffffff !important; margin: 0; font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700;">Heart Disease Prediction</h1>
-                <p style="color: #ffffff !important; margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.95;">AI-Powered Cardiovascular Risk Assessment</p>
+                <h1 style="color: #ffffff !important; margin: 0; font-family: 'Playfair Display', serif; font-size: 1.8rem; font-weight: 700;">Heart Disease Prediction <span style="background: #fbbf24; color: #881337; padding: 2px 10px; border-radius: 12px; font-size: 0.7rem; font-weight: 600;">v2.0</span></h1>
+                <p style="color: #ffffff !important; margin: 0.25rem 0 0 0; font-size: 0.9rem; opacity: 0.95;">AI-Powered Cardiovascular Risk Assessment | Updated April 2026</p>
             </div>
         </div>
     </div>
