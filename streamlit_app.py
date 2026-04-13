@@ -685,6 +685,9 @@ for page_key, (label, col) in pages.items():
 
 st.markdown("<hr style='margin: 1.5rem 0; border: none; border-top: 2px solid #fecdd3;'>", unsafe_allow_html=True)
 
+# Update Notice Banner
+st.success("🎉 **Version 2.0 Now Live!** - Enhanced UI with improved predictions | Updated: April 13, 2026", icon="✅")
+
 # ============= OVERVIEW PAGE =============
 if st.session_state.page == "overview":
     st.markdown('<h2 class="section-header fade-in">📊 Dashboard Overview</h2>', unsafe_allow_html=True)
